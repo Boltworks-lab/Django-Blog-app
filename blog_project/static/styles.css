@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+body{
+    background-color: #f6f4e8;
+    color: black;
+}
+.title{
+    color: #1d3124;
+    font-size: larger;
+    text-decoration: none;
+    font-size: xx-large;
+    font-weight: 800;
+}
+.title:hover{
+    color: #e59560;
+}
+button{
+    width: 130px;
+    padding: 0.5rem;
+    background: #1d3124;
+    color: #f6f4e8;
+    border-color: #1d3124;
+
+}
+p{
+    color: #1d3124;
+}
+button:hover{
+    background: #f6f4e8;
+    color: #1d3124;
+}
+.comment-meta > strong{
+    color: #e59560;
+}
+.comment > p{
+    color: #e59560;
+}
+form > input{
+    width: 130px;
+    padding: 0.5rem;
+    background: #1d3124;
+    color: #f6f4e8;
+    border-radius: 0.5rem;
+}
+form > input:hover{
+    background: #f6f4e8;
+    color: #1d3124;
+}
+.list{
+    list-style: none;
+}
+.list > a{
+    text-decoration: none;
+    color: #e59560;
+}
+form>button{
+    width: 130px;
+    padding: 0.5rem;
+    background: #f6f4e8;
+    color: #1d3124;
+    border-color: #1d3124;
+    border-radius: 0.5rem;
+}
+form>button:hover{
+    background: #1d3124;
+    color: #f6f4e8;
+    border-color: #f6f4e8;
+}
+.details>h2, p{
+    color: #1d3124;
+}
+.anchor{
+    text-decoration: none;
+    color: #e59560;
+}
